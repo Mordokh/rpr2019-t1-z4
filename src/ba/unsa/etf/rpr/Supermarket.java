@@ -23,6 +23,8 @@ public class Supermarket {
         return sviartikli;
     }
 
+    public int getBrojArtikala () {return nartikal;}
+
     public Artikl izbaciArtiklSaKodom(String n) {
 
         for (int i=0; i<nartikal; i++) {

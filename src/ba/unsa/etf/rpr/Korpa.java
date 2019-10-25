@@ -22,6 +22,8 @@ public class Korpa {
         return sviartikli;
     }
 
+    public int getBrojArtikala(){return nartikal;}
+
     public Artikl izbaciArtiklSaKodom(String n) {
         for (int i=0; i<nartikal; i++){
             if (sviartikli[i].getKod().equals(n)){
